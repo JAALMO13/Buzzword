@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1296867451626671923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296867451626671921}
+  - component: {fileID: 1296867451626671916}
+  m_Layer: 0
+  m_Name: AnagramGame
+  m_TagString: Game
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1296867451626671921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296867451626671923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1296867451626671916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296867451626671923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2bf179133180447b1fd3106511960f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  online: 1
+  lettersParent: {fileID: 0}
+  cover: {fileID: 0}
+  letterPrefab: {fileID: 4847041961010056360, guid: 29aff2fcf6676844e960ae6f190cca14, type: 3}
+  minLength: 3
+  length: 6
+  score: 0
+  letterPrefabs: []
+  originalWord: 
+  word: 
+  useTimer: 1
+  gameLength: 60
+  gameOver: 0
+  currentView: 
+  createdWordFront: {fileID: 0}
+  createdWordMid: {fileID: 0}
+  createdWordBack: {fileID: 0}
+  CreatedWordBin: {fileID: 0}
+  submit: {fileID: 0}
+  shuffle: {fileID: 0}
+  cam: {fileID: 0}
+  scoreText: {fileID: 0}
+  wordCount: {fileID: 0}
+  waitTime: 0.4
+  minLettersStatic: {fileID: 0}
+  LettersBoxStatic: {fileID: 0}
+  size: 140
+  spacing: 40
+  newSpacing: 20
+  newSize: 120
+  move: 0.02

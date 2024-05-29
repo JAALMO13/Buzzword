@@ -1,0 +1,3 @@
+rep "Buzzword@jalmo001@cloud"
+  path "/"
+    smartbranch "/main"

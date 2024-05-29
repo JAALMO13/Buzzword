@@ -1,0 +1,90 @@
+==================SCREENS==================
+main menu: start new game, friends, offline mode, settings
+settings: volume, mute, help, notifications, (restore iAPs)
+help: all game rules
+definition: word, definition(s), example(s) 
+games: settings, quit(settings), game
+game options: word length, time limit, game type [send game, same time, send turn]
+daily reward: increase probability of better stuff for consecutive days
+connection interupted: loading symbol, text saying interuption
+connecting: loading, text for connecting
+friends list: add new, list of names, remove friend, challenge 
+high scores: global, national
+best individual: each game list best words and contributing points
+
+
+==================GAMERULES==================
+anagrams: time-based winner is most points run at same time or send game / send turn(max turn option)(give option?)
+word blitz: time-based, points, same time or send game
+wordle: until word found 
+word search: until all words found send game (record time taken)
+crossword: until all words found send game (record time taken)
+
+
+
+==================SCRIPTS==================
+web crawler 
+word search generator (grid size)
+random word generator (length)
+set up word blitz alg making sure words appear (distribute letters based on appearance in languange) (grid size)
+set up an enum? for letter scores with a way to calculate
+
+
+==================NOTES==================
+[command] for client to instatiate something
+Add coop for some games
+
+
+==================GAME IDEAS==================
+bomb party (word contains a string of characters(must be at least one available))
+Countdown
+shootout (a word of length from given word) (1-9 rounds)
+
+==================GAME SEQUENCE==================
+title
+lobby screen look for game 
+lobby screen player at top opponent at bottom 
+if none show waiting (kick out of lobby after 1 min?)
+game
+game over
+all possible
+rinse and repeat(title/game mode select)
+
+==================ISSUES==================
+
+
+
+Queue system 
+- add custom class
+- Custom class contains player connection, room name, settings (min length, max length, time limit), password (if one)
+- peek before dequeuing 
+- if same put players in game dequeue and don't add to queue.
+
+
+==================TODO IF TIME==================
+web crawler for definitions
+high score / leaderboards
+
+maybe add coop (kinda simple)
+- add toggle with label to game settings default off
+- if true add scores at end
+- good job instead of win/lose
+- add all used words to one list and use distinct for no duplicates
+- words found would be separate duplicates will not count 
+- add scores together at top (gameoverview can stay the same)
+
+new game modes 
+==================TODO==================
+
+test with 3 or more players (does not work unless host is in game)
+
+build ipa file 
+
+rematch button(disabled)
+
+!!!!!                                                       !!!!!
+!!!!! sync used words and scores across all clients in room !!!!!
+!!!!!                                                       !!!!!
+
+
+testing on phone with friends

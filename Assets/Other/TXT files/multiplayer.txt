@@ -1,0 +1,6 @@
+player starts game 
+if no room create room 
+if player selects same game join room
+lock room if 2 players
+if no available rooms create new room
+find Game tag and name is the same as gameselected then enable

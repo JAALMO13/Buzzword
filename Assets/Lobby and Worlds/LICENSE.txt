@@ -1,0 +1,10 @@
+This software uses the license for Fish-Networking: https://github.com/FirstGearGames/FishNet/blob/main/LICENSE.md
+
+
+THIRD PARTY NOTICE:
+
+Lobby and Worlds\Plugins\TextMesh Pro
+	TextMesh Pro is owned by Unity3d.com and may belong under a separate license.
+
+Lobby and Worlds\Demos\KingOfHill\Plugins\Ultimate10PlusShaders
+	Attribution 3.0 'thedeveloper10'. View README within directory for more information.

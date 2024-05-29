@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: adc9b981cb111c6469fcc3fb7bffcb97
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bryant Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 33589058fac1be24abc6539a33478d07, type: 3}
+  - {fileID: 12800000, guid: c13c1d52e7b75244ba479254083ce71b, type: 3}
+  - {fileID: 12800000, guid: 159ac9649d6d9fb469a23f3d38c459d0, type: 3}
+  - {fileID: 12800000, guid: d5de716bf900f904ba30a4bcb727467b, type: 3}
+  - {fileID: 12800000, guid: 897fe16824c8b6343abb50f4ad8ed061, type: 3}
+  - {fileID: 12800000, guid: 8b5b5ddbe43fa684880fd8c04f6d707f, type: 3}
+  - {fileID: 12800000, guid: 2a2bb5ef4d7368d498c46bd4bf8e5a5e, type: 3}
+  - {fileID: 12800000, guid: 00ffa0d59ec33d542b744d77b59a750a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

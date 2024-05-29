@@ -1,0 +1,24 @@
+3.0.0
+	- Updated to Fish-Networking 3.1.1
+
+2.2.1
+	- Fixed MessageCanvas NullReferenceException error when using fast reload.
+
+2.2.0
+	- Fixed IsOwner check to Owner.IsLocalClient in OnStartNetwork.
+
+2.1.1
+	- Fixed demo game clientHost objects sometimes spawning twice when clientHost leaves a room and rejoins.
+	- Fixed started room members not getting join message for those that join after the game already started.
+	- Fixed new room joiner not getting existing started members when joining an already started game.
+
+2.1.0
+	- Updated Getting Started.
+	- Reduced demo textures size.
+	- Made SimulatePhysics script simplier.
+
+2.0.0
+	- Updated for Fish-Networking 2.0.0.
+
+1.0.0
+	- Initial release.
